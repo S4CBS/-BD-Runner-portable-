@@ -7,6 +7,6 @@ homebasename = os.path.basename(homepath)
 homepath = homepath.replace(homebasename,"")
 
 bdpath = os.path.join(homepath, "BlackDragoN.jar")
-javapath = os.path.join(homepath, "jre-1.8", "bin", "java").replace("\\", "/")
+javapath = os.path.join(homepath, "Java64", "bin", "java").replace("\\", "/")
 
 subprocess.run([javapath, "-jar", bdpath])
